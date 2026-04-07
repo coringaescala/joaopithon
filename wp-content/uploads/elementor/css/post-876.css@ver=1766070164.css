@@ -1,0 +1,30 @@
+.elementor-876 .elementor-element.elementor-element-947a47f{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--border-radius:0px 0px 0px 0px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:1em;--padding-bottom:0em;--padding-left:0em;--padding-right:0em;}.elementor-876 .elementor-element.elementor-element-947a47f:not(.elementor-motion-effects-element-type-background), .elementor-876 .elementor-element.elementor-element-947a47f > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#02010100;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-876 .elementor-element.elementor-element-801930a .elementor-button{background-color:#00F281;font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-radius:51px 51px 51px 51px;padding:1em 0.75em 1em 0.75em;}.elementor-876 .elementor-element.elementor-element-801930a .elementor-button:hover, .elementor-876 .elementor-element.elementor-element-801930a .elementor-button:focus{background-color:#00F281;}.elementor-876 .elementor-element.elementor-element-801930a{border-radius:0px 0px 0px 0px;}#elementor-popup-modal-876 .dialog-widget-content{background-color:#02010100;margin:0px 0px 0px 0px;}#elementor-popup-modal-876 .dialog-message{width:341px;height:auto;padding:0em 1em 11em 0em;}#elementor-popup-modal-876{justify-content:flex-end;align-items:flex-start;}@media(max-width:1024px){.elementor-widget-button .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-876 .elementor-element.elementor-element-801930a .elementor-button{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );}}@media(max-width:767px){.elementor-widget-button .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );}.elementor-876 .elementor-element.elementor-element-801930a .elementor-button{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );border-radius:39px 39px 39px 39px;padding:1em 1em 1em 1em;}}/* Start custom CSS for button, class: .elementor-element-801930a *//* tira contorno padrão */
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button,
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button:focus,
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button:focus-visible,
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button:active {
+    outline: none !important;
+}
+
+/* quando estiver em foco, mas sem mouse em cima,
+   força o visual de estado NORMAL */
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button:focus:not(:hover) {
+    background-color: #00F281 !important;   /* cor normal do botão */
+    color: #000000 !important;              /* cor do texto normal */
+    box-shadow: none !important;
+    filter: none !important;
+    transform: none !important;
+    border-color: #00F281 !important;       /* se tiver borda */
+}
+
+/* ícone sem contorno */
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button-icon svg:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.elementor-876 .elementor-element.elementor-element-801930a .elementor-button-icon svg {
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: -2px; /* ou -2px se precisar descer um tiquinho */
+}/* End custom CSS */
